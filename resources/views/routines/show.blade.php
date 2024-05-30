@@ -48,7 +48,7 @@
                                         @endphp
                                         @foreach($courses as $course)
                                             <td>
-                                                <!-- <span>{{$course->course->course_name}}</span> -->
+                                                <span>{{$course->course->course_name}}</span>
                                                 <div>{{$course->start}} - {{$course->end}}</div>
                                             </td>
                                         @endforeach
